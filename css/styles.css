@@ -1,0 +1,180 @@
+/* title page */
+
+#title{
+
+  background-color:#ff7b54;
+
+}
+.titlediv{
+  padding: 2% 0 ;
+
+
+
+}
+.t1{
+  padding: 0 0 10%;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+.container-fluid{
+  padding: 0 15% 7%;
+
+}
+
+
+/* navigation bar */
+.navbar{
+  padding-bottom: 4.5rem ;
+}
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+.nav-link{
+  margin: 0 1.2rem;
+}
+
+/* title image */
+
+.titleimage{
+  position: absolute;
+  transform: rotate(25deg);
+  width: 24% ;
+  right:20%;
+}
+
+/* features */
+#features{
+  position: relative;
+  background-color: white;
+  text-align: center;
+  color: #8f8f8f ;
+  font-family: 'Montserrat', sans-serif;
+  padding: 15% 15%;
+
+}
+
+.fas{
+  color: #ef8172;
+  padding-bottom: 10%;
+}
+
+.fas:hover{
+  color: #ff4c88;
+}
+.features-heading{
+  font-weight: 900;
+  color: black;
+  font-size: 1.5rem;
+}
+
+
+.a{
+  padding: 4%;
+}
+/* testimonials */
+
+#testimonials{
+  padding :7% 15% 4% ;
+  text-align: center;
+  background-color:#ff7b54;
+  color: white;
+
+}
+.dog{
+  width: 10%;
+  border-radius: 100%;
+
+}
+.testimonial{
+  font-family: Montserrat;
+  font-weight: 900;
+padding: 10% 10% 4%;
+
+}
+
+.test{
+  padding-bottom: 8%;
+}
+
+/* press */
+#press{
+  background-color: #ff7b54;
+  text-align: center;
+  padding: 5%;
+}
+
+.pressimg{
+  width:15%;
+  margin: 0 1%;
+}
+
+/* pricing */
+
+#pricing{
+  text-align: center;
+  padding: 7% 10%;
+}
+.pricecol{
+  padding: 2%;
+}
+.card{
+  padding: 0 0;
+
+}
+
+/* call to action */
+#cta{
+
+  text-align:center;
+  background-color: #ff7b54;
+  padding: 7% 10%;
+
+
+}
+.ctah{
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:900;
+  padding: 5%;
+font-size: 3rem;
+line-height: 1.5;
+}
+
+/* footer */
+#footer{
+  background-color: white;
+  padding: 5%;
+  text-align: center;
+}
+.sm{
+  margin: 3% 1%;
+}
+.br{
+  margin-right: 5px;
+}
+.buttons{
+  margin: 0 1%;
+}
+.footer-link{
+  color:black;
+}
+.footer-link:hover{
+  color:grey;
+}
+
+@media (max-width: 992px){
+#title{
+    text-align: center;
+  }
+  .titleimage{
+    position: static;
+    transform: rotate(0);
+    padding-top: 9%;
+    width: 50%
+  }
+}
